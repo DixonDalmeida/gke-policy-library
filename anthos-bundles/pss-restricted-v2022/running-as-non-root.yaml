@@ -29,7 +29,7 @@ metadata:
         constraintHash: '578967fba871a9f2748d08cb0b4c3c0b0d42a43bf3e3aaa494ec26626089b374'
       }"
 spec:
-  enforcementAction: dryrun
+  enforcementAction: deny
   match:
     kinds:
       - apiGroups:
