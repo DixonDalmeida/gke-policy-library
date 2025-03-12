@@ -29,7 +29,7 @@ metadata:
       }"
     policycontroller.gke.io/bundleVersion: "202403.1"
 spec:
-  enforcementAction: deny
+  enforcementAction: dryrun
   match:
     kinds:
     - apiGroups:
